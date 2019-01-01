@@ -1,0 +1,162 @@
+body {                                                /*styling of body is done here*/
+    background-color: gray;
+    font-family: "Roboto", helvetica, arial, sans-serif;
+    font-size: 16px;
+    font-weight: 400;
+   
+  }
+  #header{
+    
+    background-color: white;       /*gives a background colour to header*/
+
+  }
+  #footer {                           /*styling of footer is done her*/
+    
+   height: 70px;                                /*height of footer is settled here*/
+    width: 100%;                                 /*width of footer is settled here*/
+   text-align: center;     /*here we decide if we want to keep the content of footer in center , right or left*/
+    background-color:  white;  
+        /*this gives footer a background color*/
+     }
+     .footerh4{                           /*in footer i've used h4 */
+      padding:40px 20px;                  /*so all of these style the h4 content of footer */
+      margin:0px;
+      font-size:40px;
+      
+    }
+  
+  
+  div.table-title {                      /*this styles the glossary table */
+     display: block;                    /*this means that the element is displayed as a block*/
+    margin: auto;                      
+    max-width: 600px;
+    padding:5px;                           /*padding is the space between the content and its border*/
+    width: 100%;
+  }
+  
+  .table-title h3 {
+     color: black;
+     font-size: 30px;
+     font-weight: 400;
+     font-style:normal;
+     font-family: "Roboto", helvetica, arial, sans-serif;
+     text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1);    /*adds shadows to text*/
+     text-transform:uppercase;                             /*converts text to UPPERCASE*/
+  }
+  
+  
+  /*** Table Styles are done here **/
+  
+  .table-fill {
+    background: white;          /*agives a white background colour*/
+    border-radius:3px;            /*rounds the corners of the table's outer border edge*/
+    border-collapse: collapse;    /*this property sets table borders should collapse into a single border*/
+    height: 320px;
+    margin: auto;
+    max-width: 600px;
+    padding:5px;
+    width: 100%;
+    box-shadow: 0 5px 10px rgba(0, 0, 0, 0.1); /*puts shadow in box*/
+    animation: float 5s infinite;
+  }
+   
+  th {                             /*Table headings are designed here*/
+    color:#D5DDE5;;
+    background:#1b1e24;
+    border-bottom:4px solid #9ea7af;
+    border-right: 1px solid #343a45;
+    font-size:23px;
+    font-weight: 100;
+    padding:24px;
+    text-align:left;
+    text-shadow: 0 1px 1px rgba(0, 0, 0, 0.1);
+    vertical-align:middle;         /*controls how elements set next to each other on a line are lined up*/
+  }
+  
+  th:first-child {     /* this allows you to target the first element immediately inside another element*/
+    border-top-left-radius:3px;
+  }
+   
+  th:last-child { /*this allows you to target the last element directly inside its containing element*/
+    border-top-right-radius:3px;
+    border-right:none;
+  }
+    
+  tr {                      /*rows of table are designed here*/
+    border-top: 1px solid #C1C3D1; /*sets the values of border-top-width , border-top-style and border-top-color*/
+    border-bottom: 1px solid #C1C3D1; /*sets the values of border-bottom-width , border-bottom-style and border-bottom-color*/
+    color:#666B85;
+    font-size:16px;      /*font size is setteled here*/
+    font-weight:normal;        /*defines the thinness or thickness of a font*/
+    text-shadow: 0 1px 1px rgba(256, 256, 256, 0.1);    /*adds shadows to text*/
+  }
+   
+  tr:hover td {                /*Highlighting rows of a table is done here*/
+    background:#4E5066;
+    color:#FFFFFF;
+    border-top: 1px solid #22262e;
+  }
+   
+  tr:first-child {             /*targets the first element immediately*/
+    border-top:none;
+  }
+  
+  tr:last-child {             /*targets the last element immediately*/
+    border-bottom:none;
+  }
+   
+  tr:nth-child(odd) td {    /*nth-child selector allows you to select one or more elements based on their source order*/
+    background:#EBEBEB;
+  }
+   
+  tr:nth-child(odd):hover td { /*nth-child selector allows you to select one or more elements based on their source order*/
+    background:#4E5066;
+  }
+                     
+  tr:last-child td:first-child {    /*  */
+    border-bottom-left-radius:3px;
+  }
+   
+  tr:last-child td:last-child {       /**/
+    border-bottom-right-radius:3px;
+  }
+   
+  td {                              /**/
+    background:#FFFFFF;
+    padding:20px;
+    text-align:left;
+    vertical-align:middle;
+    font-weight:300;
+    font-size:18px;
+    text-shadow: -1px -1px 1px rgba(0, 0, 0, 0.1); 
+    border-right: 1px solid #C1C3D1;
+  }
+  
+  td:last-child {
+    border-right: 0px;
+  }
+  
+  th.text-left {
+    text-align: left;
+  }
+  
+  th.text-center {
+    text-align: center;
+  }
+  
+  th.text-right {
+    text-align: right;
+  }
+  
+  td.text-left {
+    text-align: left;
+  }
+  
+  td.text-center {
+    text-align: center;
+  }
+  
+  td.text-right {
+    text-align: right;
+  }
+  
